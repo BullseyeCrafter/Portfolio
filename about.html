@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <div class="container-fluid p-0">
+        <header>
+            <div class="navbar px-5 justify-content-center">
+                <ul class="nav nav-underline">
+                    <li class="nav-item">
+                        <a class="nav-link no-select " aria-current="page" href="index.html"><i class="fa fa-home me-1"
+                                aria-hidden="true"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="about.html"><i class="fa-solid fa-address-card me-1"></i>
+                            About</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <div class="row m-0" style="height: 87vh;">
+            <div class="col-md-12 p-0 d-flex justify-content-center align-items-center">
+                <ul class="nav nav-pills justify-content-center" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                            type="button" role="tab" aria-controls="pills-home" aria-selected="true">About Self</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill"
+                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                            aria-selected="false">Work Experience</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-12">
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+                        tabindex="0">
+                        <div class="row gy-5">
+                            <div class="col-md-12 text-center d-flex justify-content-center align-items-center">
+                                <div class="profile-image"></div>
+                            </div>
+                            <div class="col-md-12 text-center">
+                                <p class="mb-0 text-white"> My self <strong class="profile-name">Hiren Panchal</strong>,
+                                    I have been working as an <strong class="profile-designation">UI/UX
+                                        Engineer</strong> at <strong class="profile-company-name">Bharti Softech Pvt.
+                                        Ltd.</strong></p>
+                                <p class="mb-0 text-white">My role is to maintain the current website and creating new
+                                    attractive pages for the project as per the required.</p>
+                                <p class="mb-0 text-white"> Its been 1.8 years since I have joined this company and i
+                                    have learned many new this with the help of each and every members of my team,</p>
+                                <p class="mb-0 text-white"> As a <strong class="common-detail-lettes"> Web
+                                        Designer</strong> it's my duty to keep an keen eye towards what are the
+                                    observations and thoughts of the different person towards a perticular design <br>
+                                    as it helps me to create and design more user friendly and attractive pages.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade show active" id="pills-profile" role="tabpanel"
+                        aria-labelledby="pills-profile-tab" tabindex="0">
+                        <div class="row justify-content-center gy-5">
+                            <div class="col-md-4">
+                                <h1 class="common-detail-lettes ">Blitznet</h1>
+                                <a href="#" class="main-contain" data-bs-toggle="modal" data-bs-target="#blitznet-modal">
+                                    <div class="card card-body border rounded-3 project-img noselect"></div>
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <h1 class="common-detail-lettes ">BhartiSME</h1>
+                                <a href="#" class="main-contain" data-bs-toggle="modal" data-bs-target="#bhartisme-modal">
+                                    <div class="card border rounded-3 project-img-2 noselect">
+                                        <div class="card-body">
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- -------------------Modal---------------------- -->
+        <div class="modal fade" id="blitznet-modal" tabindex="-1" aria-labelledby="blitznet-modalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content bg-dark">
+                    <div class="modal-header p-0 pt-4 border-0 justify-content-center">
+                        <h1 class="modal-title fs-5 text-white" id="blitznet-modalLabel">Project-01</h1>
+                    </div>
+                    <div class="modal-body pt-0">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4>Blitznet</h4>
+                                <a href="https://blitznet.co.id/" class="img-link"> <p class="project-img rounded-3"></p></a>
+                                <div>
+                                    <p class="text-white text-center">Maintaining the website and internal pages after login</p>
+                                    <p class="text-white text-center mb-0">Link to the current image <a href="https://blitznet.co.id/" class="text-decoration-none common-detail-lettes">Blitznet</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0 justify-content-center">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------------------Modal---------------------- -->
+
+         <!-- -------------------Modal---------------------- -->
+         <div class="modal fade" id="bhartisme-modal" tabindex="-1" aria-labelledby="bhartisme-modalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content bg-dark">
+                    <div class="modal-header p-0 pt-4 border-0 justify-content-center">
+                        <h1 class="modal-title fs-5 text-white" id="bhartisme-modalLabel">Project-02</h1>
+                    </div>
+                    <div class="modal-body pt-0">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h4>Blitznet</h4>
+                                <a href="https://bhartisme.com/" class="img-link"> <p class="project-img-2 rounded-3"></p></a>
+                                <div>
+                                    <p class="text-white text-center">Maintaining the website and internal pages after login</p>
+                                    <p class="text-white text-center mb-0">Link to the current image <a href="https://bhartisme.com/" class="text-decoration-none common-detail-lettes">BhartiSME</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer border-0 justify-content-center">
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------------------Modal---------------------- -->
+
+
+        <div class="row m-0 p-3 footer">
+            <div class="col-md-12">
+                <div class="designation d-flex justify-content-evenly">
+                    <div class="contact text-white d-flex">
+                        <p class="mb-0 me-2"><strong>contact :</strong></p>
+                        <span><small><strong>+91 8238154288 , </strong></small></span>
+                        <span><small><strong>+91 9712761072</strong></small></span>
+                    </div>
+                    <div class="copyrights">
+                        <p class="mb-0 text-white"><small>Created by <i class="fa-regular fa-copyright mx-2"></i><a
+                                    href="index.html"
+                                    class="text-decoration-none copywright text-white position-relative">Hiren
+                                    Panchal</a></small></p>
+                    </div>
+                    <div class="email d-flex text-white">
+                        <p class="mb-0 me-2"><strong>Email :</strong></p>
+                        <span><small><strong>hirenpanchalpuit43@gmail.com</strong></small></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="https://kit.fontawesome.com/8aff95f6d0.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
